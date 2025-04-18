@@ -1,0 +1,9 @@
+output = run_shell
+
+describe "Loop" do
+   it "ExampleTests" do
+     expect(output).to include('Count: 1')
+     expect(output).to include('Count: 10')
+     expect(output).to include('Count: 20')
+   end
+end
